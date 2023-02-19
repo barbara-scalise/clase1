@@ -1,0 +1,345 @@
+/*INICIO*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-index {
+  background-color: black;
+}
+
+#imagen-index {
+  width: 90vw;
+  height: 75vh;
+  margin: 0 auto;
+  background-image: url("../image/shawarma.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+footer {
+  background-position: 10%;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+nav > a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 20px;
+}
+nav li {
+  display: inline-block;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.3em;
+  }
+}
+nav ul li a:hover {
+  background-color: #ac44f1;
+}
+
+.conteiner {
+  margin: 0 auto;
+}
+
+.button-index {
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  border-color: #fff;
+}
+
+.button-index:hover {
+  color: black;
+  background-color: #fff;
+}
+/*QUIENES SOMOS estilos*/
+
+.quienes-somos {
+  width: 90vw;
+  height: 79vh;
+  margin: 0 auto;
+  background-image: url("../image/foodtruck.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  opacity: 0.8;
+}
+.h1-quienes-somos {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.h1-quienes-somos {
+  color: #fff;
+}
+
+.p-quienes-somos {
+  width: 30%;
+  margin-top: 100px;
+  color: rgb(238, 149, 149);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/*.fechas ul li {
+  background-color: lightgray;
+  margin: 0 auto;
+}*/
+
+/*EVENTOS*/
+.eventos {
+  width: 90vw;
+  height: 79vh;
+  margin: 0 auto;
+  background-image: url("../image/fotoocho.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  /*display: flex;
+  position: relative;*/
+}
+
+.h1-eventos {
+  margin-left: 30px;
+  color: rgb(252, 250, 250);
+  font-size: 30px;
+  line-height: 80px;
+  text-shadow: #fff;
+}
+
+.h2 {
+  color: rgb(10, 10, 10);
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.h3 {
+  color: rgb(10, 10, 10);
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+.h4 {
+  color: rgb(10, 10, 10);
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.fechas {
+  color: rgb(10, 10, 10);
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.p-confirmadas {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  /*margin-inline-start: 300px;*/
+  margin-inline-end: 0px;
+  font-size: large;
+  /*text-align: justify;*/
+}
+
+.p-a-confirmar {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  /*margin-inline-start: 500px;*/
+  margin-inline-end: 0px;
+  font-size: large;
+  /*text-align: justify;*/
+}
+
+.p-cancelados {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  /*margin-inline-start: 500px;*/
+  margin-inline-end: 0px;
+  font-size: large;
+  /*text-align: justify;*/
+}
+
+/*PREGUNTAS FRECUENTES*/
+
+/*.preguntas-frecuentes {
+  width: 90vw;
+  height: 79vh;
+  margin: 0 auto;
+  background-image: url("../image/varios.pgn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  line-height: 40px;
+}
+
+.p-pregunta {
+  color: rgb(7, 7, 7);
+  width: 70%;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 5em;
+}
+
+.h2 h3 h4 h5 {
+  background-color: black;
+  background-size: auto;
+  margin: 0%;
+}*/
+.preguntas {
+  margin-left: 50%;
+}
+
+.card-text {
+  margin-left: 50%;
+}
+
+/*.img-fluid {
+  height: 30px;
+  width: 50px;
+  margin-bottom: 10px;
+}*/
+/*GALERIA*/
+
+.h1 {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.line {
+  background: #fff;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 40px 0;
+}
+.galeria > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgb(0, 0 0, 0.5);
+}
+.galeria img {
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.galeria a:hover img {
+  filter: blur(2px);
+  transform: rotate(10deg) scale(1.3);
+}
+
+/*contacto*/
+
+.body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.form {
+  background-color: #f8f6f605;
+  width: 90%;
+  max-width: 400px;
+  background-image: url("../image/foto1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+
+.form__container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 100%;
+}
+
+.form__title {
+  /*text-align: center;*/
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+}
+
+.form__input {
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+.form__input--messege {
+  resize: none;
+  padding: 1.8em 1em;
+}
+
+.form__cta {
+  background-color: #089fe0;
+  color: #fff;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+@media (max-width: 450px) {
+  .form {
+    padding: 3.5em 1em;
+  }
+}
