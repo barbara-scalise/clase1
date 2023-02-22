@@ -41,7 +41,7 @@ nav {
   padding: 30px 50px 0 0;
 }
 
-nav > a {
+nav a {
   color: #fff;
   font-weight: 300;
   text-decoration: none;
@@ -49,7 +49,7 @@ nav > a {
 }
 nav li {
   display: inline-block;
-  font-size: 1.1em;
+  font-size: 1.4em;
   text-decoration: none;
   color: #ffffff;
   padding: 10px;
@@ -61,7 +61,7 @@ nav li {
   }
 }
 nav ul li a:hover {
-  background-color: #ac44f1;
+  background-color: #7c7b7c;
 }
 
 .conteiner {
@@ -108,7 +108,7 @@ nav ul li a:hover {
 .p-quienes-somos {
   width: 30%;
   margin-top: 100px;
-  color: rgb(238, 149, 149);
+  color: rgb(255, 253, 253);
   font-size: 20px;
   line-height: 30px;
 }
@@ -212,13 +212,7 @@ nav ul li a:hover {
   line-height: 40px;
 }
 
-.p-pregunta {
-  color: rgb(7, 7, 7);
-  width: 70%;
-  font-size: 30px;
-  margin-top: 40px;
-  margin-right: 5em;
-}
+
 
 .h2 h3 h4 h5 {
   background-color: black;
