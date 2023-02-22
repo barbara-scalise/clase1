@@ -177,47 +177,6 @@ nav ul li a:hover {
   color: rgb(10, 0, 0);
 }
 
-/*.p-a-confirmar {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  /*margin-inline-start: 500px;
-margin-inline-end: 0px;
-font-size: large;
-text-align: justify;
-}
-
-.p-cancelados {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 500px;
-  margin-inline-end: 0px;
-  font-size: large;
-  text-align: justify;
-}*/
-
-/*PREGUNTAS FRECUENTES*/
-
-/*.preguntas-frecuentes {
-  width: 90vw;
-  height: 79vh;
-  margin: 0 auto;
-  background-image: url("../image/varios.pgn.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  line-height: 40px;
-}
-
-
-
-.h2 h3 h4 h5 {
-  background-color: black;
-  background-size: auto;
-  margin: 0%;
-}*/
 .preguntas {
   margin-left: 50%;
 }
@@ -233,11 +192,12 @@ text-align: justify;
 }*/
 /*GALERIA*/
 
-.h1 {
+h1 {
   color: rgb(255, 255, 255);
   width: 70%;
   font-size: 30px;
-  margin-top: 40px;
+  /*margin-top: 20px;*/
+  margin-left: 30px;
 }
 
 .line {
