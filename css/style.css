@@ -9,8 +9,8 @@
 }
 
 #imagen-index {
-  width: 90vw;
-  height: 75vh;
+  width: 1300px;
+  height: 410px;
   margin: 0 auto;
   background-image: url("../image/shawarma.jpg");
   background-size: cover;
@@ -37,7 +37,6 @@ footer {
 }
 
 nav {
-  text-align: right;
   padding: 30px 50px 0 0;
 }
 
@@ -55,11 +54,6 @@ nav li {
   padding: 10px;
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 1.3em;
-  }
-}
 nav ul li a:hover {
   background-color: #7c7b7c;
 }
@@ -85,8 +79,8 @@ nav ul li a:hover {
 /*QUIENES SOMOS estilos*/
 
 .quienes-somos {
-  width: 90vw;
-  height: 79vh;
+  width: 1300px;
+  height: 460px;
   margin: 0 auto;
   background-image: url("../image/foodtruck.jpg");
   background-size: cover;
@@ -108,13 +102,15 @@ nav ul li a:hover {
   color: #fff;
 }*/
 
-.p-quienes-somos {
-  width: 30%;
-  margin-top: 50px;
-  margin-left: 10px;
+.parrafo {
+  margin-top: 150px;
+  margin-right: 160px;
+  margin-left: 20px;
   font-size: 25px;
   line-height: 30px;
   color: rgb(253, 253, 253);
+  /*padding: 10px;*/
+  text-align: left;
 }
 
 /*.fechas ul li {
@@ -124,8 +120,8 @@ nav ul li a:hover {
 
 /*EVENTOS*/
 .eventos {
-  width: 90vw;
-  height: 79vh;
+  width: 1300px;
+  height: 460px;
   margin: 0 auto;
   background-image: url("../image/fotoocho.jpg");
   background-size: cover;
@@ -167,23 +163,25 @@ nav ul li a:hover {
 
 .p-fechas {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  /*margin-block-start: 1em;
+  margin-block-end: 1em;*/
   /*margin-inline-start: 300px;*/
-  margin-inline-end: 0px;
+  /*margin-inline-end: 0px;*/
   font-size: x-large;
   /*text-align: justify;*/
   -webkit-text-stroke: 1px rgb(10, 0, 0);
   color: rgb(10, 0, 0);
 }
-
-.preguntas {
+.card-title {
+  color: white;
+}
+/*.preguntas {
   margin-left: 50%;
 }
 
 .card-text {
   margin-left: 50%;
-}
+}*/
 
 /*.img-fluid {
   height: 30px;
@@ -192,11 +190,11 @@ nav ul li a:hover {
 }*/
 /*GALERIA*/
 
-h1 {
+/*.h1 {
   color: rgb(255, 255, 255);
   width: 70%;
   font-size: 30px;
-  /*margin-top: 20px;*/
+  /*margin-top: 20px;
   margin-left: 30px;
 }
 
@@ -205,7 +203,7 @@ h1 {
   height: 5px;
   width: 100%;
   display: block;
-}
+}*/
 
 .galeria {
   display: grid;
