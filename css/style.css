@@ -89,24 +89,41 @@ nav ul li a:hover {
   opacity: 1;
   margin-top: 20px;
 }
-.h1-quienes-somos {
-  color: rgb(255, 255, 255);
-  width: 70%;
-  font-size: 30px;
-  margin-top: 40px;
-  margin-left: 10px;
+
+.container-quienes-somos {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: flex-start
+  justify-content: flex-start;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+.container-quienes-somos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+.container-somos {
+  position: relative;
+  max-width: 480px;
+  padding: 2rem;
+}
+.h1 {
+  margin-left: 30px;
 }
 
-.parrafo {
-  margin-top: 130px;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-size: 25px;
-  line-height: 30px;
-  color: rgb(10, 10, 10);
-  background-color: lightgray;
-  opacity: 0.8;
-  text-align: center;
+.container-somos p{
+  margin-top: 50px;
+}
+.container-somos h1,
+.container-somos p {
+  color: white;
 }
 
 /*EVENTOS*/
@@ -119,8 +136,6 @@ nav ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 1;
-  /*display: flex;
-  position: relative;*/
 }
 
 .h1-eventos {
@@ -154,10 +169,7 @@ nav ul li a:hover {
 
 .p-fechas {
   display: block;
-  /*margin-block-start: 1em;
-  margin-block-end: 1em;*/
-  /*margin-inline-start: 300px;*/
-  /*margin-inline-end: 0px;*/
+
   font-size: x-large;
   /*text-align: justify;*/
   -webkit-text-stroke: 1px rgb(10, 0, 0);
@@ -166,13 +178,6 @@ nav ul li a:hover {
 .card-title {
   color: white;
 }
-/*.preguntas {
-  margin-left: 50%;
-}
-
-.card-text {
-  margin-left: 50%;
-}*/
 
 /*.img-fluid {
   height: 30px;
