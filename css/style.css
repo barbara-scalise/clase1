@@ -79,7 +79,6 @@ nav ul li a:hover {
 /*QUIENES SOMOS estilos*/
 
 .quienes-somos {
-  width: 1300px;
   height: 460px;
   margin: 0 auto;
   background-image: url("../image/foodtruck.jpg");
@@ -87,7 +86,6 @@ nav ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   text-align: left;
-  /*display: flex;*/
   opacity: 1;
   margin-top: 20px;
 }
@@ -98,25 +96,18 @@ nav ul li a:hover {
   margin-top: 40px;
   margin-left: 10px;
 }
-/*.h1-quienes-somos {
-  color: #fff;
-}*/
 
 .parrafo {
-  margin-top: 150px;
-  margin-right: 160px;
+  margin-top: 130px;
+  margin-right: 20px;
   margin-left: 20px;
   font-size: 25px;
   line-height: 30px;
-  color: rgb(253, 253, 253);
-  /*padding: 10px;*/
-  text-align: left;
-}
-
-/*.fechas ul li {
+  color: rgb(10, 10, 10);
   background-color: lightgray;
-  margin: 0 auto;
-}*/
+  opacity: 0.8;
+  text-align: center;
+}
 
 /*EVENTOS*/
 .eventos {
