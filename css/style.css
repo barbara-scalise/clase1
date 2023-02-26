@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 .body-index {
-  background-color: black;
+  background-color: rgb(8, 8, 8);
 }
 
 #imagen-index {
-  width: 1300px;
+  width: 1400px;
   height: 410px;
   margin: 0 auto;
   background-image: url("../image/shawarma.jpg");
@@ -18,9 +18,9 @@
   background-repeat: no-repeat;
 }
 
-.nav-list {
+/*.nav-list {
   list-style: none;
-}
+}*/
 
 footer {
   background-position: 10%;
@@ -50,7 +50,7 @@ nav li {
   display: inline-block;
   font-size: 1.4em;
   text-decoration: none;
-  color: #ffffff;
+  color: #050505;
   padding: 10px;
 }
 
@@ -94,7 +94,7 @@ nav ul li a:hover {
   position: relative;
   height: 500px;
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
   margin: 1.5rem auto;
@@ -118,7 +118,7 @@ nav ul li a:hover {
   margin-left: 30px;
 }
 
-.container-somos p{
+.container-somos p {
   margin-top: 50px;
 }
 .container-somos h1,
@@ -169,17 +169,27 @@ nav ul li a:hover {
 
 .p-fechas {
   display: block;
+
   font-size: x-large;
   /*text-align: justify;*/
   -webkit-text-stroke: 1px rgb(10, 0, 0);
   color: rgb(10, 0, 0);
 }
-.card-title{
-  color: #fff;
-}
 
-
+/*.img-fluid {
+  height: 30px;
+  width: 50px;
+  margin-bottom: 10px;
+}*/
 /*GALERIA*/
+
+/*.h1 {
+  color: #fff;
+  width: 70%;
+  font-size: 30px;
+  /*margin-top: 20px;
+  margin-left: 30px;
+}
 
 .line {
   background: #fff;
@@ -214,6 +224,7 @@ nav ul li a:hover {
   filter: blur(2px);
   transform: rotate(10deg) scale(1.3);
 }
+/*PREGUNTAS FRECUENTES*/
 
 /*contacto*/
 
