@@ -169,30 +169,17 @@ nav ul li a:hover {
 
 .p-fechas {
   display: block;
-
   font-size: x-large;
   /*text-align: justify;*/
   -webkit-text-stroke: 1px rgb(10, 0, 0);
   color: rgb(10, 0, 0);
 }
-.card-title {
-  color: white;
+.card-title{
+  color: #fff;
 }
 
-/*.img-fluid {
-  height: 30px;
-  width: 50px;
-  margin-bottom: 10px;
-}*/
+
 /*GALERIA*/
-
-/*.h1 {
-  color: rgb(255, 255, 255);
-  width: 70%;
-  font-size: 30px;
-  /*margin-top: 20px;
-  margin-left: 30px;
-}
 
 .line {
   background: #fff;
