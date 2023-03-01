@@ -183,21 +183,6 @@ nav ul li a:hover {
 }*/
 /*GALERIA*/
 
-/*.h1 {
-  color: #fff;
-  width: 70%;
-  font-size: 30px;
-  /*margin-top: 20px;
-  margin-left: 30px;
-}
-
-.line {
-  background: #fff;
-  height: 5px;
-  width: 100%;
-  display: block;
-}*/
-
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
