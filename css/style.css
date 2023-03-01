@@ -9,13 +9,13 @@
 }
 
 #imagen-index {
-  width: 1300px;
   height: 410px;
   margin: 0 auto;
   background-image: url("../image/shawarma.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
 }
 
 /*.nav-list {
@@ -27,6 +27,7 @@ footer {
   background-color: black;
   text-align: center;
   color: #fff;
+  font-display: flex;
 }
 
 .title {
@@ -92,7 +93,7 @@ nav ul li a:hover {
 
 .container-quienes-somos {
   position: relative;
-  height: 500px;
+  min-height: 300px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -119,7 +120,7 @@ nav ul li a:hover {
 }
 
 .container-somos p {
-  margin-top: 50px;
+  padding: 0.5rem 0;
 }
 .container-somos h1,
 .container-somos p {
@@ -128,7 +129,6 @@ nav ul li a:hover {
 
 /*EVENTOS*/
 .eventos {
-  width: 1300px;
   height: 460px;
   margin: 0 auto;
   background-image: url("../image/fotoocho.jpg");
@@ -160,6 +160,7 @@ nav ul li a:hover {
   font-size: xx-large;
   text-align: center;
   border-color: black;
+  flex-wrap: wrap;
 }
 
 .text-borde {
